@@ -35,12 +35,14 @@ class DoggoViewModel : ViewModel() {
                 _isLoading.value = false
             }
         }
+
+
     }
 
 
-    fun clearState() {
-        _imageUrl.value = null
-        _isLoading.value = false
-        _error.value = null
-    }
+//    fun clearState() {
+//        _imageUrl.value = null
+//        _isLoading.value = false
+//        _error.value = null
+//    }
 }
